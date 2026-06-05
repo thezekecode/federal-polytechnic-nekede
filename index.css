@@ -1,5 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: hsl(0, 0%, 8%);
+    background-color: white;
      font-family: "Inter", sans-serif;
 }
 
@@ -8,14 +14,14 @@ body {
     width: 375px;
     border: 1px solid none;
     padding: 20px;
-    background-color: hsl(0, 0%, 12%);
+    background-color: rgb(83, 193, 237);
     margin: 10px auto;
     border-radius: 12px;
     
 }
 
 .profile-img {
-    width: 90px;
+    width: 250px;
     display: block;
     margin: auto;
     border-radius: 999px;
@@ -29,7 +35,7 @@ body {
 }
 
 .profile-state {
-    color: hsl(75, 94%, 57%);
+    color: #9ca3af;
     text-align: center;
     font-weight: 600;
 }
@@ -48,5 +54,10 @@ body {
     text-align: center;
     margin-top: 8px;
     border-radius: 12px;
-    background-color: hsl(0, 0%, 20%);
+    background-color: rgb(68, 167, 197);
+}
+
+.link:hover {
+    background-color: white;
+    color: skyblue;
 }
