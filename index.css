@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #050b18;
      font-family: "Inter", sans-serif;
 }
 
@@ -14,13 +14,13 @@ body {
     width: 375px;
     border: 1px solid none;
     padding: 20px;
-    background-color: rgb(83, 193, 237);
+    background-color: #003b73;
     margin: 30px auto;
     border-radius: 12px;
 }
 
 .profile-img {
-    width: 250px;
+    width: 270px;
     display: block;
     margin: auto;
     border-radius: 999px;
@@ -34,7 +34,7 @@ body {
 }
 
 .profile-state {
-    color: #9ca3af;
+    color: rgba(255, 255, 255, 0.9);
     text-align: center;
     font-weight: 600;
 }
@@ -53,10 +53,20 @@ body {
     text-align: center;
     margin-top: 8px;
     border-radius: 12px;
-    background-color: rgb(68, 167, 197);
+    background-color: #002e54;
 }
 
 .link:hover {
-    background-color: white;
-    color: skyblue;
+    background-color: #a84a38;
+    color: white;
+}
+
+footer {
+    font-size: 12px;
+    opacity: 0.7;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 15px;
+    line-height: 1.4;
+    font-size: 11px;
 }
